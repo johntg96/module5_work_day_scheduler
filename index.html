@@ -3,17 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- reset browser styling -->
   <link rel="stylesheet" type="text/css" href="./assets/reset.css">
+  <!-- CSS Bootstrap 5.3.0 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- stylesheet -->
   <link rel="stylesheet" type="text/css" href="./assets/style.css">
   <title>Work Day Scheduler</title>
 </head>
 <body>
   <header>
-    <h1>Work Day Scheduler</h1>
+    <h1 class="row justify-content-center">Work Day Scheduler</h1>
+    <h3 id="todays-date" class="row justify-content-center">todays date placeholder</h3>
   </header>
   <main>
-
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <h1>Time of the day (hour)</h1>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit iste sed officiis dignissimos, harum fuga tempora inventore dolorum id illo, architecto soluta cum sequi veritatis minus corrupti animi natus vitae?
+        </div>
+        <div class="col-4">
+          <h1>Task</h1>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quis neque qui magni assumenda exercitationem dolor voluptate provident. Dignissimos soluta natus quis? Sequi, dolorem? Quos, rem delectus. Ipsam, rem dolor!
+        </div>
+        <div class="col-4">
+          <h1></h1>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, tenetur! Eligendi pariatur nihil vel. Suscipit eius excepturi nisi ipsa totam, aliquid aperiam nobis dolore iste at id? Hic, numquam nam.
+        </div>
+      </div>
+    </div>
   </main>
+  <!-- JQuery CDN-->
+  <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
+  <!-- daysjs CDN-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.9/dayjs.min.js" integrity="sha512-q4Xn+ZU2K+dqJPL8a3TiyGsDa31IkR/rLt/w+fy8jLrx8TdXj0dLM1Aq4aPXnOOKxHEya/bD9DePDB2DHm4jJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- script -->
   <script src="./assets/script.js"></script>
 </body>
 </html>
