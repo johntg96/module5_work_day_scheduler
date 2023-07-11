@@ -11,29 +11,32 @@
   <link rel="stylesheet" type="text/css" href="./assets/style.css">
   <title>Work Day Scheduler</title>
 </head>
-<body>
-  <header>
-    <h1 class="row justify-content-center">Work Day Scheduler</h1>
-    <h3 id="todays-date" class="row justify-content-center">todays date placeholder</h3>
+<body class="d-flex flex-column min-vh-100">
+  <header class="container-fluid">
+    <h1 class="row justify-content-center pt-3">Work Day Scheduler</h1>
+    <h4 id="todays-date" class="row justify-content-center mt-1 pt-3 mb-2">todays date placeholder</h4>
   </header>
-  <main>
+  <main class="container mt-5">
     <div class="container">
       <div class="row">
-        <div class="col-4">
-          <h1>Time of the day (hour)</h1>
+        <div class="col-2">
+          <h4 class="row justify-content-center">Time</h4> <!-- hour of the day -->
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit iste sed officiis dignissimos, harum fuga tempora inventore dolorum id illo, architecto soluta cum sequi veritatis minus corrupti animi natus vitae?
         </div>
-        <div class="col-4">
-          <h1>Task</h1>
+        <div class="col-8">
+          <h4 class="row justify-content-center">Task</h4>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quis neque qui magni assumenda exercitationem dolor voluptate provident. Dignissimos soluta natus quis? Sequi, dolorem? Quos, rem delectus. Ipsam, rem dolor!
         </div>
-        <div class="col-4">
-          <h1></h1>
+        <div class="col-2">
+          <h4 class="row justify-content-center">Save</h4>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, tenetur! Eligendi pariatur nihil vel. Suscipit eius excepturi nisi ipsa totam, aliquid aperiam nobis dolore iste at id? Hic, numquam nam.
         </div>
       </div>
     </div>
   </main>
+  <footer class="container-fluid mt-auto">
+    <p class="row justify-content-center">John Garrison - module5_work_day_scheduler</p>
+  </footer>
   <!-- JQuery CDN-->
   <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
   <!-- daysjs CDN-->

@@ -1,2 +1,10 @@
 /* style.css */
+header {
+  background-color: lightblue;
+  border-bottom: 1px solid blue;
+}
 
+footer {
+  background-color: lightgray;
+  border-top: 1px solid gray;
+}
