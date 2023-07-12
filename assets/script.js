@@ -29,10 +29,12 @@ function setTable() {
   // loop through input field row slots and set text if any stored
   for (let i = 0; i <= 11; i++) {
     let taskToGet = `slot${i}`;
+    // if the slot has data then inject it into DOM
     if(getTask(taskToGet) !== null) {
       let slotValue = getTask(taskToGet);
       // console.log(`slot: ${taskToGet} task: ${getTask(taskToGet)}`);
       $(`#${taskToGet}`).val(slotValue);
+      // change save button text to 'overwrite'
       $(`#${taskToGet}`).parent().siblings().children().text(`overwrite`)
     }
   }
