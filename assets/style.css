@@ -17,3 +17,7 @@ footer a {
 footer a:hover {
   color: blue;
 }
+
+input {
+  width: 85%;
+}
