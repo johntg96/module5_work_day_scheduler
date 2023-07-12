@@ -33,6 +33,7 @@ function setTable() {
       let slotValue = getTask(taskToGet);
       // console.log(`slot: ${taskToGet} task: ${getTask(taskToGet)}`);
       $(`#${taskToGet}`).val(slotValue);
+      $(`#${taskToGet}`).parent().siblings().children().text(`overwrite`)
     }
   }
 }
@@ -62,6 +63,7 @@ $(`.btn-primary`).on(`click`, function() {
     alert(`Please input data into ${rowInputField.attr(`id`)} to perform save.`)
   } else {
     // add text in input slot to local storage
+    $(this).text(`overwrite`);
     saveTask(rowInputField.attr("id"), rowInputField.val());
   }
 });
