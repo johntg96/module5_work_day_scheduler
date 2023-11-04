@@ -1,6 +1,9 @@
-# module_5_work_day_scheduler
+# Daily Task List
 ## Description
-A day-calendar for your workday covering day-shift hours of 6am to 5pm.
+Plan your day better with this simple website.
+From the waking hours of the day, keep track of the things you need to accomplish.
+
+#### Features
 The time-table is color-coded based on current time of day using dayjs library.
 Each task added to the table can be saved to browser's local storage.
 
